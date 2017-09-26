@@ -1,63 +1,15 @@
 <!DOCTYPE html>
-<html>
 <head>
-<style>
-ul {
-    list-style-type: none;
-	width: 750px;
-    margin:0 auto;
-    overflow: hidden;
-	position: 150%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-	height: 40px;
-	line-height: 40px;
-	width: 150px;
-    text-align: center;
-	float: center;
-	padding: 14px 16px;
-    text-decoration: none;
-	font-family: Calibri Light;
-	font-weight: Bold;
-	font-size: 30px;
-}
-
-
-a:hover {
-	background-color: black;
-	border-bottom: 1px solid black;
-	font-family: Calibri Light;
-	font-weight: Bold;
-	font-size: 30px;
-	color:white;
-}
-
-a:hover:not(.active) {
-    background-color: black;
-	font-family: Calibri Light;
-	font-weight: Bold;
-	font-size: 30px;
-}
-
-.active {
-	background-color:white;
-}
-</style>
+<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 <body>
-<title>About Me</title>
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="aboutMe.html">About Me</a></li>
-  <li><a href="#Portfolio">Portfolio</a></li>
-  <li><a href="#contact">Contact Me</a></li>
-</ul>
+<div id="tabs">
+  <ul>
+    <li><a href="Home.html"><span>Home</span></a></li>
+    <li><a href="AboutMe.html"><span>About Me</span></a></li>
+    <li><a href="Portfolio.html"><span>Portfolio</span></a></li>
+    <li><a href="ContactMe.html"><span>Contact Me</span></a></li>
+  </ul>
+</div>
 </body>
 </html>
