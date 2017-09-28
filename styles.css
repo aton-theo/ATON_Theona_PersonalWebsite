@@ -1,6 +1,12 @@
 body {
 	font: bold 11px/1.5em Verdana;
 	}
+	
+img {
+	display: block;
+	padding-top: 50px;
+	margin: 1px auto;
+}
 
 h1 {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
