@@ -1,3 +1,8 @@
+html{
+	background-image: url("background_03a.jpg");
+	background-size: cover;
+}
+
 body {
 	font: bold 11px/1.5em Verdana;
 	}
@@ -35,6 +40,7 @@ hr {
 	border-bottom:1px solid #2763A5;
 	padding-top:50px;
 	line-height:normal;
+
 	}
 
 #tabs ul {
