@@ -130,7 +130,7 @@ hr {
 
 .buttons {
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 13%;
 }
 
 .buttons a {
@@ -186,15 +186,15 @@ hr {
 
 .buttons a:hover::before { opacity: 1; }
 
-.buttons a.twitter:hover::before {
-	background-color: #c6f0f8;
+.buttons a.instagram:hover::before {
+	background-color: #f8ebb6;
 }
 
 .buttons a.facebook:hover::before {
 	background-color: #dae1f0;
 }
 
-.buttons a.dribble:hover::before {
+.buttons a.tumblr:hover::before {
 	background-color: #fadae6;
 }
 
@@ -202,15 +202,18 @@ hr {
 	background-color: #f8ebb6;
 }
 
-.twitter img { vertical-align: -7px; }
-.dribble img { vertical-align: -12px; }
+.buttons i {
+padding-top: 15px;
+font-size: 30px;
+color: #999999;
+}
+
+.instagram img { vertical-align: -7px; }
+.tumblr img { vertical-align: -12px; }
 .facebook img { vertical-align: -12px;}
 .rss img { vertical-align: -7px;}
 
 .buttons a img { border: 0; }
-
-.footer a { color: #bebebe; text-decoration: none; }
-.footer a:hover { color: #bebebe; text-decoration: none; border-bottom: 1px dashed #cdcdcd; }
 
 
 
